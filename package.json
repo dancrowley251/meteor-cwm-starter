@@ -1,0 +1,28 @@
+{
+  "name": "meteor-boilerplate",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --driver-package=practicalmeteor:mocha"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "btoa": "^1.1.2",
+    "create-react-class": "^15.5.2",
+    "meteor-node-stubs": "~0.2.4",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-addons-pure-render-mixin": "^15.4.1",
+    "react-dom": "^15.5.4",
+    "react-prop-types": "^0.4.0",
+    "react-router": "^3.0.0",
+    "react-test-renderer": "^15.5.4",
+    "simpl-schema": "^0.2.3"
+  },
+  "devDependencies": {
+    "enzyme": "^2.7.1",
+    "expect": "^1.20.2",
+    "react-addons-test-utils": "^15.4.1"
+  }
+}
